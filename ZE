@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("nothing zeqpze#2999", "Sentinel")
+local Tab = Window:NewTab("Super Op")
+local Section = Tab:NewSection("Become a killing machine")
+Section:NewButton("Aimbot(owl hub)", "Dont miss", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+local Tab = Window:NewTab("Visuals")
+local Section = Tab:NewSection("Dont needa use eyes anymore")
+Section:NewButton("ESP", "No need to be scared dont let your guard down!", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/getgoodgetgithub/Esp/main/Esp"))();
+end)
